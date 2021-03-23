@@ -1,0 +1,45 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "ZhoupuData-UI - 基于 dumi 和 TypeScript 实现的移动端组件库",
+          "meta": {}
+        }
+      ],
+      "/guide": [
+        {
+          "path": "/guide",
+          "title": "介绍",
+          "meta": {
+            "order": 1
+          }
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "title": "指南",
+        "order": 0,
+        "path": "/guide"
+      }
+    ]
+  },
+  "title": "ZhoupuData-UI",
+  "logo": "./assets/logo.jpg",
+  "mode": "site",
+  "repository": {
+    "url": "https://github.com/jinwenwu/react-native-zhoupu-ui",
+    "branch": "master"
+  },
+  "theme": {}
+}
