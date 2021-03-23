@@ -52,12 +52,39 @@ export function getRoutes() {
     "wrappers": [require('/Users/jinwenwu/Documents/work_zhoupu/react-native-zhoupu-ui/node_modules/@umijs/preset-dumi/lib/theme/layout').default, require('/Users/jinwenwu/Documents/work_zhoupu/react-native-zhoupu-ui/node_modules/dumi-theme-mobile/src/layouts/index.tsx').default],
     "routes": [
       {
+        "path": "/components/zptext",
+        "component": require('/Users/jinwenwu/Documents/work_zhoupu/react-native-zhoupu-ui/src/ZPText/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "src/ZPText/index.md",
+          "updatedTime": 1616494497000,
+          "componentName": "ZPText",
+          "title": "ZPText",
+          "group": {
+            "title": "ZPText",
+            "path": "/components/zptext"
+          },
+          "nav": {
+            "title": "组件",
+            "path": "/components"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Demo",
+              "heading": "demo"
+            }
+          ]
+        },
+        "title": "ZPText"
+      },
+      {
         "path": "/",
         "component": require('/Users/jinwenwu/Documents/work_zhoupu/react-native-zhoupu-ui/docs/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1616487019518,
+          "updatedTime": 1616487896000,
           "title": "ZhoupuData-UI - 基于 dumi 和 TypeScript 实现的移动端组件库",
           "hero": {
             "title": "ZhoupuData-UI",
@@ -93,7 +120,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1616486944144,
+          "updatedTime": 1616487896000,
           "title": "介绍",
           "order": 1,
           "toc": "menu",
@@ -116,6 +143,12 @@ export function getRoutes() {
           ]
         },
         "title": "介绍"
+      },
+      {
+        "path": "/components",
+        "meta": {},
+        "exact": true,
+        "redirect": "/components/zptext"
       }
     ],
     "title": "ZhoupuData-UI",
