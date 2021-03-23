@@ -65,7 +65,7 @@ export function getRoutes() {
             "path": "/components/zptext"
           },
           "nav": {
-            "title": "组件",
+            "title": "组件1",
             "path": "/components"
           },
           "slugs": [

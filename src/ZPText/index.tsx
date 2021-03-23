@@ -7,5 +7,5 @@ import { Text } from 'react-native';
 // @ts-ignore
 // eslint-disable-next-line no-undef
 export default ZPText = () => {
-  return <Text>测试组件库</Text>;
+  return <Text>测试组件库11</Text>;
 };

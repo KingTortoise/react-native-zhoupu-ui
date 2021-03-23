@@ -17,6 +17,6 @@ export default {
 
   return _react["default"].createElement(_default);
 },
-    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { ZPText } from 'react-native-zhoupu-ui';\n\nexport default () => <ZPText />;"}},"dependencies":{"react":{"version":"*"},"react-native-zhoupu-ui":{"version":"0.1.1"},"react-native":{"version":"*"}},"componentName":"ZPText","identifier":"ZPText-demo"},
+    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { ZPText } from 'react-native-zhoupu-ui';\n\nexport default () => <ZPText />;"}},"dependencies":{"react":{"version":"*"},"react-native-zhoupu-ui":{"version":"0.1.3"},"react-native":{"version":"*"}},"componentName":"ZPText","identifier":"ZPText-demo"},
   },
 };
