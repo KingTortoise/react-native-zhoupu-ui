@@ -10,6 +10,10 @@ nav:
 ## Demo
 
 ```tsx
+/**
+ * title: Foo demo
+ */
+
 import React from 'react';
 import { QuicklyEntry } from 'react-native-zhoupu-ui';
 import icon_follow from './images/icon_follow.png';

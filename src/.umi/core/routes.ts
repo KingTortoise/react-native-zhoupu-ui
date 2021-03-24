@@ -57,7 +57,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/QuicklyEntry/index.md",
-          "updatedTime": 1616564663180,
+          "updatedTime": 1616565411000,
           "componentName": "QuicklyEntry",
           "title": "QuicklyEntry",
           "group": {
@@ -89,7 +89,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/ZPText/index.md",
-          "updatedTime": 1616496019000,
+          "updatedTime": 1616565411000,
           "componentName": "ZPText",
           "title": "ZPText",
           "group": {
@@ -97,7 +97,7 @@ export function getRoutes() {
             "path": "/components/zptext"
           },
           "nav": {
-            "title": "组件1",
+            "title": "组件",
             "path": "/components"
           },
           "slugs": [

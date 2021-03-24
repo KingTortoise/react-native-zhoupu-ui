@@ -47,7 +47,7 @@
         "path": "/guide"
       },
       {
-        "title": "组件1",
+        "title": "组件",
         "path": "/components"
       }
     ]
@@ -57,7 +57,8 @@
   "mode": "site",
   "repository": {
     "url": "https://github.com/KingTortoise/react-native-zhoupu-ui",
-    "branch": "master"
+    "branch": "master",
+    "platform": "github"
   },
   "theme": {}
 }

@@ -9,5 +9,8 @@ export default defineConfig({
   logo: './assets/logo.jpg',
   outputPath: 'docs-dist',
   mode: 'site',
-  locales:[['zh-CN', '中文']]
+  locales:[['zh-CN', '中文']],
+  base: '/react-native-zhoupu-ui/',
+  publicPath: '/react-native-zhoupu-ui/',
+  exportStatic: {}
 });

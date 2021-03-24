@@ -24,18 +24,27 @@
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
+    "postversion": "dumi assets",
+    "deploy":"gh-pages -d docs-dist",
+    "clean" : "gh-pages-clean",
     "test": "jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
     "release": "dotenv release-it"
   },
+  "dumiAssets": "assets.json",
   "keywords": [
     "react-native",
     "ios",
     "android"
   ],
-  "repository": "https://github.com/KingTortoise/react-native-zhoupu-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingTortoise/react-native-zhoupu-ui.git",
+    "branch": "master",
+    "platform": "github"
+  },
   "author": "KingTortoise <jinwenwu@zhoupudata.com> (https://github.com/KingTortoise)",
   "license": "MIT",
   "bugs": {
@@ -65,7 +74,8 @@
     "react-native": "0.63.4",
     "react-native-builder-bob": "^",
     "release-it": "^14.2.2",
-    "typescript": "^4.1.3"
+    "typescript": "^4.1.3",
+    "gh-pages": "3.1.0"
   },
   "dependencies": {
     "core-js": "^3.8.2",

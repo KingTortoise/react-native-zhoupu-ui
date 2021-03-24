@@ -3,7 +3,7 @@ title: ZPText
 group:
   title: ZPText
 nav:
-  title: '组件1'
+  title: '组件'
   path: /components
 ---
 
