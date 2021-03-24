@@ -1,3 +1,50 @@
 {
+  "QuicklyEntry": {
+    "default": [
+      {
+        "identifier": "data",
+        "description": "金刚区数据",
+        "type": "ItemType[]",
+        "required": true
+      },
+      {
+        "identifier": "rootStyle",
+        "description": "金刚区的外层样式",
+        "type": "{ [key: string]: any; }",
+        "default": "{}"
+      },
+      {
+        "identifier": "columns",
+        "description": "列数",
+        "type": "number",
+        "default": "4"
+      },
+      {
+        "identifier": "innerVerticalPadding",
+        "description": "宫格的上下的内边距",
+        "type": "number"
+      },
+      {
+        "identifier": "textPadding",
+        "description": "宫格内图标与文字的间距",
+        "type": "number"
+      },
+      {
+        "identifier": "fontSize",
+        "description": "文字的字体大小",
+        "type": "number"
+      },
+      {
+        "identifier": "fontColor",
+        "description": "文字的颜色",
+        "type": "string"
+      },
+      {
+        "identifier": "iconSize",
+        "description": "图标大小",
+        "type": "number"
+      }
+    ]
+  },
   "ZPText": {}
 }

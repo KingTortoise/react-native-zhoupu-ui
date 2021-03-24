@@ -52,12 +52,44 @@ export function getRoutes() {
     "wrappers": [require('/Users/jinwenwu/Documents/work_zhoupu/react-native-zhoupu-ui/node_modules/@umijs/preset-dumi/lib/theme/layout').default, require('/Users/jinwenwu/Documents/work_zhoupu/react-native-zhoupu-ui/node_modules/dumi-theme-mobile/src/layouts/index.tsx').default],
     "routes": [
       {
+        "path": "/components/quickly-entry",
+        "component": require('/Users/jinwenwu/Documents/work_zhoupu/react-native-zhoupu-ui/src/QuicklyEntry/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "src/QuicklyEntry/index.md",
+          "updatedTime": 1616564663180,
+          "componentName": "QuicklyEntry",
+          "title": "QuicklyEntry",
+          "group": {
+            "title": "QuicklyEntry",
+            "path": "/components/quickly-entry"
+          },
+          "nav": {
+            "title": "组件",
+            "path": "/components"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Demo",
+              "heading": "demo"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ]
+        },
+        "title": "QuicklyEntry"
+      },
+      {
         "path": "/components/zptext",
         "component": require('/Users/jinwenwu/Documents/work_zhoupu/react-native-zhoupu-ui/src/ZPText/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "src/ZPText/index.md",
-          "updatedTime": 1616494497000,
+          "updatedTime": 1616496019000,
           "componentName": "ZPText",
           "title": "ZPText",
           "group": {
@@ -73,6 +105,11 @@ export function getRoutes() {
               "depth": 2,
               "value": "Demo",
               "heading": "demo"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
             }
           ]
         },
@@ -148,7 +185,7 @@ export function getRoutes() {
         "path": "/components",
         "meta": {},
         "exact": true,
-        "redirect": "/components/zptext"
+        "redirect": "/components/quickly-entry"
       }
     ],
     "title": "ZhoupuData-UI",

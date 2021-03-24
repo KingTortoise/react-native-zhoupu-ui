@@ -35,13 +35,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/jinwenwu/react-native-zhoupu-ui",
-  "author": "jinwenwu <jinwenwu@zhoupudata.com> (https://github.com/jinwenwu)",
+  "repository": "https://github.com/KingTortoise/react-native-zhoupu-ui",
+  "author": "KingTortoise <jinwenwu@zhoupudata.com> (https://github.com/KingTortoise)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jinwenwu/react-native-zhoupu-ui/issues"
+    "url": "https://github.com/KingTortoise/react-native-zhoupu-ui/issues"
   },
-  "homepage": "https://github.com/jinwenwu/react-native-zhoupu-ui#readme",
+  "homepage": "https://github.com/KingTortoise/react-native-zhoupu-ui#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

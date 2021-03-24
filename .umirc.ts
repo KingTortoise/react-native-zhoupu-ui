@@ -9,4 +9,5 @@ export default defineConfig({
   logo: './assets/logo.jpg',
   outputPath: 'docs-dist',
   mode: 'site',
+  locales:[['zh-CN', '中文']]
 });

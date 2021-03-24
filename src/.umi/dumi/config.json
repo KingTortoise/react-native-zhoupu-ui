@@ -1,7 +1,13 @@
 {
   "menus": {
-    "en-US": {
+    "zh-CN": {
       "/components": [
+        {
+          "title": "QuicklyEntry",
+          "path": "/components/quickly-entry",
+          "meta": {},
+          "children": []
+        },
         {
           "title": "ZPText",
           "path": "/components/zptext",
@@ -29,12 +35,12 @@
   },
   "locales": [
     {
-      "name": "en-US",
-      "label": "English"
+      "name": "zh-CN",
+      "label": "中文"
     }
   ],
   "navs": {
-    "en-US": [
+    "zh-CN": [
       {
         "title": "指南",
         "order": 0,
@@ -50,7 +56,7 @@
   "logo": "./assets/logo.jpg",
   "mode": "site",
   "repository": {
-    "url": "https://github.com/jinwenwu/react-native-zhoupu-ui",
+    "url": "https://github.com/KingTortoise/react-native-zhoupu-ui",
     "branch": "master"
   },
   "theme": {}
