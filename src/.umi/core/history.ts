@@ -2,7 +2,7 @@
 import { createBrowserHistory, History } from '/Users/jinwenwu/Documents/work_zhoupu/react-native-zhoupu-ui/node_modules/umi/node_modules/@umijs/runtime';
 
 let options = {
-  "basename": "/"
+  "basename": "/react-native-zhoupu-ui/"
 };
 if ((<any>window).routerBase) {
   options.basename = (<any>window).routerBase;
